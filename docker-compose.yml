@@ -1,0 +1,9 @@
+---
+version: '2.1'
+services:
+  template-nodejs:
+    image: mahyarmirrashed/template-nodejs
+    container-name: template-nodejs
+    environment:
+      - KEY=VALUE
+    restart: unless-stopped
