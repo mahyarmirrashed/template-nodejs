@@ -36,5 +36,11 @@
     "lint:fix": "eslint src --fix",
     "start": "node ./dist/src/index.js",
     "prepare": "husky install"
+  },
+  "lint-staged": {
+    "**/*.{js,jsx,ts,tsx}": [
+      "yarn lint",
+      "yarn format"
+    ]
   }
 }
