@@ -1,4 +1,4 @@
-# Teplate Repository for NodeJS Projects
+# Template Repository for NodeJS Projects
 
 This repository acts as a starting point for NodeJS projects using TypeScript and sets up basic development tools such as Husky, Lint-Staged, ESLint, Dockerfiles, editor configuration files, etc.
 
